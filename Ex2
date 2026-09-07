@@ -1,0 +1,5 @@
+class Sample:
+    def eat(self):
+        print("vignesh eats daily")
+S1=Sample()
+S1.eat()
