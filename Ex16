@@ -1,0 +1,29 @@
+class StudentResult:
+    def __init__(self):
+        self.Name="Pranay"
+        self.Rollno=1234567
+        self.sub1=84
+        self.sub2=74
+        self.sub3=78
+        print("Name:",self.Name)
+        print("Rollno:",self.Rollno)
+        print("sub1:",self.sub1)
+        print("sub2:",self.sub2)
+        print("sub3:",self.sub3)
+    def calculate(self):
+        totalmarks=self.sub1+self.sub2+self.sub3
+        avg=(self.sub1+self.sub2+self.sub3)/3
+        print("totalmarks:",totalmarks)
+        print("avg:",avg)
+        if avg >= 90:
+            print("Grade:A")
+        elif avg < 90 and avg >= 75:
+            print("Grade:B")
+        elif avg < 75 and avg >= 60:
+            print("Grade:C")
+        elif avg < 60 and avg >= 40:
+            print("Grade:D")
+        else:
+            print("FAIL!!")
+D=StudentResult()
+D.calculate()
