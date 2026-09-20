@@ -1,0 +1,13 @@
+class Employee_Salary:
+    def __init__(self):
+        self.ID=1234567
+        self.Name="Pranay"
+        self.basic_salary=25000
+    def total_salary(self):
+        HRA=self.basic_salary*0.2
+        DA=self.basic_salary*0.1
+        total_salary=self.basic_salary+HRA+DA
+        print(total_salary)
+
+D=Employee_Salary()
+D.total_salary()
