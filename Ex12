@@ -1,0 +1,12 @@
+class animal:
+    def eats(self):
+        print("animal eats flesh")
+class lion(animal):
+    def eats(self):
+        print("lion eats deer")
+def wild(self):
+    self.eats()
+d=animal()
+d1=lion()
+wild(d)
+wild(d1)
