@@ -1,0 +1,28 @@
+class BankAccount:
+    def __init__(self):
+        self.acc_holder = "Pranay"
+        self.acc_no = 1234567890
+        self.balance = 15000
+        print(self.acc_holder)
+        print(self.acc_no)
+        print(self.balance)
+
+    def deposit(self):
+        amount = int(input("Enter the money to deposit: "))
+        self.balance += amount
+        print(self.balance)
+
+    def withdraw(self):
+        amount = int(input("Enter cash to withdraw: "))
+        if amount <= self.balance:
+            self.balance -= amount
+            print(self.balance)
+        else:
+            print("Insufficient balance!")
+
+    def check_balance(self):
+        print(self.check_balance)
+ben = BankAccount()
+ben.deposit()
+ben.withdraw()
+ben.check_balance()
