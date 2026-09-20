@@ -1,0 +1,10 @@
+
+class student:
+    name="Bunny"
+    age=20
+class demo(student):
+    branch="AIML"
+d=demo()
+print(d.name)
+print(d.age)
+print(d.branch)
