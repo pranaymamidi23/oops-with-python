@@ -1,0 +1,8 @@
+class Demo():
+    def addition(self,a,b=0,c=0):
+        return a+b+c
+    def multiplication(self,a,b,c):
+        return a*b*c
+D=Demo()
+print(D.addition(10,20,5))
+print(D.multiplication(2,4,6))
