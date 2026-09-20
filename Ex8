@@ -1,0 +1,13 @@
+class father:
+    def eat(self):
+        print("father eats daily")
+class mother:
+    def cook(self):
+        print("mother cooks delicious")
+class children(father,mother):
+    def plays(self):
+        print("chidren plays well")
+d=children()
+d.eat()
+d.cook()
+d.plays()
