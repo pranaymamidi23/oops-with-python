@@ -1,0 +1,32 @@
+
+class vehicle:
+    def __init__(self):
+        self.Brand="BMW"
+        self.Model="M4"
+    def display_details(self):
+        print("Brand:",self.Brand)
+        print("Model:",self.Model)
+
+class car(vehicle):
+    Name="BMW(M5)"
+    highspeed=400
+    def top(self):
+        print("BMW is a king of drifting")
+        print("Name:",self.Name)
+        print("highspeed:",self.highspeed)
+class bike(vehicle):
+    Name1="BMW(ninja)"
+    Speed=350
+    def speed(self):
+        print("Ninja is top speed bike")
+        print("Name1:",self.Name1)
+        print("Speed:",self.Speed)
+
+
+a=vehicle()
+c=car()
+b=bike()
+a.display_details()
+c.top()
+b.speed()
+       
