@@ -1,0 +1,32 @@
+class shapeArea:
+    def area(self):
+        print("Circle")
+        print("Rectangle")
+        print("Triangle")
+class Circle(shapeArea):
+    def area(self,r=5):
+        area=3.14*r*r
+        print("Circle_Area:",area)
+        
+class Rectangle(shapeArea):
+    def area(self,l=2,b=5):
+        area=l*b
+        print("Rectangle_Area:",area)
+        
+class Triangle(shapeArea):
+    def area(self,b=2,h=5):
+        area=0.5*b*h
+        print("Triangle_Area:",area)
+def totalarea(self):
+    self.area()
+        
+s=shapeArea()
+s1=Circle()
+s2=Rectangle()
+s3=Triangle()
+totalarea(s)
+totalarea(s1)
+totalarea(s2)
+totalarea(s3)
+
+    
